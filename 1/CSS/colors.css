@@ -1,0 +1,35 @@
+
+.orange {
+  background-color: #fbb027a2;
+}
+.gray {
+  background-color: #313131;
+  color: white;
+}
+.green { 
+  background-color: #22701ea2;}
+
+.orange2 {
+  background-color: #f8820ea2 ;
+}
+
+body {
+  background: white url(../img/FC-house/ffxiv_09292022_220849_979.png) scroll;  
+  background-size: cover;
+}
+
+.color {
+  height: 80px;
+  width:  80px;
+}
+.aqua {
+  background-color: aqua
+}
+
+.top {
+  z-index: 3;
+}
+
+a:link {
+  color: #22701e;
+}

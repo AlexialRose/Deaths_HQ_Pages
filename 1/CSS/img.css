@@ -1,0 +1,20 @@
+#resize {
+  height: 384px;
+  width: 680px;
+}
+
+img[alt$="Heroes"] {
+  height: 192px;
+  width: 340px;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+.portrait {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}

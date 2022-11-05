@@ -1,0 +1,54 @@
+@import url(CSS/colors.css);
+@import url(CSS/img.css);
+* {
+  box-sizing: border-box;
+}
+/* fixed width container */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/* fluid width container */
+.container-fluid {
+  width: 100%;
+}
+/* rows go in containers and act as parents of columns */
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+/* apply clearfix to fix rows to pregentthem from collapsing their height */
+.row::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden; 
+  height: 0; 
+  line-height: 0;
+}
+/* column classes */
+[class^="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+/* this will be the first column on the left */
+[class^="col-"]:first-child {
+  margin-left: 0;
+}
+/* this is our column sizes */
+.col-1  { width: 6.5%;  }
+.col-2  { width: 15%;   }
+.col-3  { width: 23.5%; }
+.col-4  { width: 32%;   }
+.col-5  { width: 40.5%; }
+.col-6  { width: 49%;   } 
+.col-7  { width: 57.5%; }
+.col-8  { width: 66%;   }
+.col-9  { width: 74.5%; }
+.col-10 { width: 83%;   }
+.col-11 { width: 91.5%; }
+.col-12 { width: 100%;  }
+
+.long {
+  height: 50px;
+}
